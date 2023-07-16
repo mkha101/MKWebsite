@@ -6,8 +6,8 @@ import ProjectCards from "../components/ProjectCards.astro";
 ---
 
 <Layout title="MK | Muzamil Khan">
-  <main class="flex">
-    <div class="w-1/2">
+  <main class="flex flex-wrap">
+    <div class="w-full sm:w-1/2">
       <article class="flex flex-col gap-7">
         <h3 class="font-bold text-xl text-[#93A3B8]">
           {presentation.position}
@@ -51,7 +51,7 @@ import ProjectCards from "../components/ProjectCards.astro";
         </div>
       </article>
     </div>
-    <div class="w-1/2 flex justify-center">
+    <div class="w-full sm:w-1/2 flex justify-center">
       <ProjectCards />
     </div>
   </main>
