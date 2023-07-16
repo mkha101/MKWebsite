@@ -8,8 +8,8 @@ export type Project = {
 const projects: Project[] = [
   {
     title: "Book Finder App",
-    techs: ["ReactJS (NextJS)"],
-    link: "aibookfinder.netlify.app",
+    techs: ["NextJS"],
+    link: "aibookfindeår.netlify.app",
   },
 ];
 
