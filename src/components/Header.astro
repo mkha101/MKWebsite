@@ -3,7 +3,10 @@ import presentation from "../data/presentation";
 ---
 
 <header class="z-40 flex w-full flex-col gap-2 md:flex-row md:justify-between">
-  <a href="/" class="hover:text-[#1E293B] text-4xl text-white font-bold">
+  <a
+    href="/"
+    class="transition ease-in-out hover:text-[#79889b] text-4xl text-white font-bold"
+  >
     {presentation.logo}
   </a>
   <nav role="navigation">
@@ -18,7 +21,7 @@ import presentation from "../data/presentation";
       </li>
       <li>
         <a
-          href="/projects"
+          href="/projectpage"
           class:list={{
             ["text-base text-white font-bold transition ease-in-out hover:text-[#79889b]"]: true,
           }}>Projects</a
