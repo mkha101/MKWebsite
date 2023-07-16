@@ -8,25 +8,25 @@ import ProjectCards from "../components/ProjectCards.astro";
 <Layout title="MK | Muzamil Khan">
   <main class="flex">
     <div class="w-1/2">
-      <article class="flex flex-col gap-10">
-        <h3 class="font-bold text-2xl text-neutral-100 text-[#79889b]">
+      <article class="flex flex-col gap-7">
+        <h3 class="font-bold text-xl text-neutral-100 text-[#93A3B8]">
           {presentation.position}
         </h3>
         <h1 class="text-5xl text-white font-bold">
           {presentation.title}
         </h1>
-        <h2 class="font-medium text-lg max-w-[30ch] text-[#79889b] leading-6">
+        <h2 class="font-medium text-lg max-w-[30ch] text-[#93A3B8] leading-6">
           {presentation.description}
         </h2>
-        <h2 class="font-medium text-lg max-w-[30ch] text-[#79889b] leading-6">
+        <h2 class="font-medium text-lg max-w-[30ch] text-[#93A3B8] leading-6">
           {presentation.description2}
         </h2>
         <Skills />
         <div class="flex flex-col gap-7">
-          <h3 class="mt-20 font-bold text-lg text-neutral-100 text-white">
+          <h3 class="mt-16 font-bold text-lg text-neutral-100 text-white">
             Get in Touch!
           </h3>
-          <p class="font-bold text-sm text-neutral-100 text-[#79889b]">
+          <p class="font-bold text-sm text-neutral-100 text-[#93A3B8]">
             Email me at <a
               href={`mailto:${presentation.mail}`}
               class="text-sm hover:text-white"
@@ -34,7 +34,7 @@ import ProjectCards from "../components/ProjectCards.astro";
               {presentation.mail}
             </a>or follow me on my socials
           </p>
-          <p class="flex gap-5 text-[#79889b]">
+          <p class="flex gap-5 text-[#93A3B8]">
             <a
               target="_blank"
               class="cursor-pointer hover:text-white"
@@ -51,7 +51,7 @@ import ProjectCards from "../components/ProjectCards.astro";
         </div>
       </article>
     </div>
-    <div class="w-1/2 flex justify-end">
+    <div class="w-1/2 flex justify-center">
       <ProjectCards />
     </div>
   </main>
