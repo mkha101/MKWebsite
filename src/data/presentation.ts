@@ -22,7 +22,7 @@ const presentation: Presentation = {
   description:
     "I specialize in web development. Being able to bring designs and ideas to life as well as making them accessible to everyone is what drives me everyday.",
   description2:
-    "For me learning never stops as I'm always looking to improve my skills so that I may contribute even more on my next venture.",
+    "The pursuit of knowledge is a lifelong journey for me, as I am constantly driven to enhance my skills and make a greater impact in my future endeavors.",
   socials: [
     {
       label: "LinkedIn",
