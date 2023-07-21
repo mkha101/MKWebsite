@@ -20,6 +20,12 @@ const projects: Project[] = [
       "Web app made for searching books and generating summaries using Ai.",
     link: "aibookfinder.netlify.app",
   },
+  {
+    title: "HalalNearMe",
+    techs: ["Next.js", "Clerk Auth", "Yelp Fusion API"],
+    description: "Search for halal food in your area using just your zipcode.",
+    link: "halalnearme.netlify.app",
+  },
 ];
 
 export default projects;
