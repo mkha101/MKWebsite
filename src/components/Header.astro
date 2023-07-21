@@ -9,24 +9,23 @@ import presentation from "../data/presentation";
   >
     {presentation.logo}
   </a>
-  <nav role="navigation">
-    <ul role="list" class="flex flex-row gap-8">
-      <li>
-        <a
-          href="/"
-          class:list={{
-            ["text-base text-white font-bold transition ease-in-out hover:text-[#79889b]"]: true,
-          }}>Home</a
-        >
-      </li>
-      <li>
-        <a
-          href="/projectpage"
-          class:list={{
-            ["text-base text-white font-bold transition ease-in-out hover:text-[#79889b]"]: true,
-          }}>Projects</a
-        >
-      </li>
-    </ul>
-  </nav>
+
+  <ul role="list" class="flex items-center gap-8">
+    <li>
+      <a
+        href="/"
+        class:list={{
+          ["text-base text-white font-bold transition ease-in-out hover:text-[#79889b]"]: true,
+        }}>Home</a
+      >
+    </li>
+    <li>
+      <a
+        href="/projectpage"
+        class:list={{
+          ["text-base text-white font-bold transition ease-in-out hover:text-[#79889b]"]: true,
+        }}>Projects</a
+      >
+    </li>
+  </ul>
 </header>
