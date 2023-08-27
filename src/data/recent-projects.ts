@@ -1,4 +1,4 @@
-export type Project = {
+export type recentProject = {
   title: string;
   techs: string[];
   description: string;
@@ -6,7 +6,7 @@ export type Project = {
   isComingSoon?: boolean;
 };
 
-const projects: Project[] = [
+const projects: recentProject[] = [
   {
     title: "InfinityTrade (Currently Developing)",
     techs: [
@@ -20,13 +20,6 @@ const projects: Project[] = [
       "Marketplace website where users can create their own accounts, make their own listings, view others listings, message other sellers or buyers, as well as purchase products and/or sell them.",
     link: "kicksavenue.netlify.app",
   },
-  {
-    title: "Kicks Avenue",
-    techs: ["ReactJS", "Stripe", "Redux", "MySQL", "Strapi"],
-    description: "E-Commerce website for purchasing sneakers.",
-    link: "kicksavenue.netlify.app",
-  },
-
   {
     title: "Book Finder App",
     techs: ["Next.js", "Open Ai API", "Google Books API"],
