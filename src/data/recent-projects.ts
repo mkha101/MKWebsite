@@ -18,7 +18,7 @@ const projects: recentProject[] = [
     ],
     description:
       "Marketplace website where users can create their own accounts, make their own listings, view others listings, message other sellers or buyers, as well as purchase products and/or sell them.",
-    link: "kicksavenue.netlify.app",
+    link: "https://infinitytrade.vercel.app",
   },
   {
     title: "Book Finder App",
