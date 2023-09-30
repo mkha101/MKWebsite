@@ -21,6 +21,14 @@ const projects: Project[] = [
     link: "https://infinitytrade.vercel.app",
   },
   {
+    title: "Car Detailing",
+    techs: ["AstroJS", "React", "TailwindCSS", "SendGrid", "Instagram API"],
+    description:
+      "Car Detailing website with a modern design and implmentation of Instagrams API to display posts and SendGrids API to allow users to contact/email the detailer.",
+    link: "car-detailing-six.vercel.app",
+  },
+
+  {
     title: "Kicks Avenue",
     techs: ["ReactJS", "Stripe", "Redux", "MySQL", "Strapi"],
     description: "E-Commerce website for purchasing sneakers.",
