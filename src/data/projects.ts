@@ -31,7 +31,7 @@ const projects: Project[] = [
     ],
     description:
       "Diabetes tracking web app that helps users log data as well as create personal fitness and meal plans that cater to their specific needs.",
-    link: "https://infinitytrade.vercel.app",
+    link: "https://diabetestracker.vercel.app",
   },
   {
     title: "Car Detailing",
