@@ -21,6 +21,19 @@ const projects: Project[] = [
     link: "https://infinitytrade.vercel.app",
   },
   {
+    title: "HealthFirst (Diabetes Tracker)",
+    techs: [
+      "NextJS",
+      "Supabase/Postgres SQL",
+      "Clerk Auth",
+      "TypeScript",
+      "Tailwind CSS",
+    ],
+    description:
+      "Diabetes tracking web app that helps users log data as well as create personal fitness and meal plans that cater to their specific needs.",
+    link: "https://infinitytrade.vercel.app",
+  },
+  {
     title: "Car Detailing",
     techs: ["AstroJS", "React", "TailwindCSS", "SendGrid", "Instagram API"],
     description:
